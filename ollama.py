@@ -29,7 +29,7 @@ class Pipeline:
         # This is where you can add your custom pipelines like RAG.
         print(f"pipe:{__name__}")
 
-        OLLAMA_BASE_URL = "http://192.168.1.239:11434"
+        OLLAMA_BASE_URL = "http://192.168.1.238:11434"
         MODEL = "llama3.1:latest"
 
         if "user" in body:
